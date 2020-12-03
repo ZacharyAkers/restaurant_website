@@ -1,0 +1,34 @@
+.navbar {
+    background-image: linear-gradient( rgb(7,72,10), rgba(43, 147, 72));
+    opacity: 0.85;
+    z-index: 1;
+}
+
+.nav-item {
+    color: white;
+}
+
+.carousel {
+    z-index: -1;
+}
+
+.container {
+    background-color: white;
+    margin-top: 40%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
